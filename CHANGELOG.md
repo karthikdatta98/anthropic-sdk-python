@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.31.0 (2024-07-08)
+
+Full Changelog: [v0.30.1...v0.31.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.30.1...v0.31.0)
+
+### Features
+
+* **vertex:** add copy and with_options ([#578](https://github.com/anthropics/anthropic-sdk-python/issues/578)) ([b9827c1](https://github.com/anthropics/anthropic-sdk-python/commit/b9827c13fb15995bfe355d91a2856495c6dd64a9))
+
+
+### Bug Fixes
+
+* **client:** always respect content-type multipart/form-data if provided ([#574](https://github.com/anthropics/anthropic-sdk-python/issues/574)) ([73ed0cc](https://github.com/anthropics/anthropic-sdk-python/commit/73ed0cc3038cdd878231c2424418ae70cace12d0))
+* **streaming/messages:** more robust event type construction ([#576](https://github.com/anthropics/anthropic-sdk-python/issues/576)) ([0e50b4a](https://github.com/anthropics/anthropic-sdk-python/commit/0e50b4afeb0a081921b1e5f40f92d227227f04a3))
+* **vertex:** avoid credentials refresh on every request ([#575](https://github.com/anthropics/anthropic-sdk-python/issues/575)) ([0f6f11c](https://github.com/anthropics/anthropic-sdk-python/commit/0f6f11c95cea45cd24146d5025b7bcd3cb795f53))
+
+
+### Chores
+
+* **ci:** update rye to v0.35.0 ([#577](https://github.com/anthropics/anthropic-sdk-python/issues/577)) ([0407a1b](https://github.com/anthropics/anthropic-sdk-python/commit/0407a1baa974b911d1df1ae6657b767d78b83e8d))
+* **internal:** add helper method for constructing `BaseModel`s ([#572](https://github.com/anthropics/anthropic-sdk-python/issues/572)) ([9bd160b](https://github.com/anthropics/anthropic-sdk-python/commit/9bd160bff0427afd0dafcc687e7f52f81daa2e04))
+* **internal:** fix formatting ([b54cf09](https://github.com/anthropics/anthropic-sdk-python/commit/b54cf0962ca271a22d7f18ce60fd6dd640ab813e))
+
 ## 0.30.1 (2024-07-01)
 
 Full Changelog: [v0.30.0...v0.30.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.30.0...v0.30.1)
